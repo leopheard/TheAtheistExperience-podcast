@@ -1,5 +1,5 @@
 from xbmcswift2 import Plugin, xbmcgui
-from resources.lib import theatheistexperience-podcast
+from resources.lib import theatheistexperiencepodcast
 
 plugin = Plugin()
 
@@ -29,11 +29,11 @@ def all_episodes():
     """
     contains playable podcasts listed as just-in
     """
-    soup = theatheistexperience-podcast.get_soup(URL)
+    soup = theatheistexperiencepodcast.get_soup(URL)
     
-    playable_podcast = theatheistexperience-podcast.get_playable_podcast(soup)
+    playable_podcast = theatheistexperiencepodcast.get_playable_podcast(soup)
     
-    items = theatheistexperience-podcast.compile_playable_podcast(playable_podcast)
+    items = theatheistexperiencepodcast.compile_playable_podcast(playable_podcast)
 
     return items
 
@@ -43,11 +43,11 @@ def all_episodes1():
     """
     contains playable podcasts listed as just-in
     """
-    soup = theatheistexperience-podcast.get_soup(URL)
+    soup = theatheistexperiencepodcast.get_soup(URL)
     
-    playable_podcast1 = theatheistexperience-podcast.get_playable_podcast1(soup)
+    playable_podcast1 = theatheistexperiencepodcast.get_playable_podcast1(soup)
     
-    items = theatheistexperience-podcast.compile_playable_podcast1(playable_podcast1)
+    items = theatheistexperiencepodcast.compile_playable_podcast1(playable_podcast1)
 
     return items
 
