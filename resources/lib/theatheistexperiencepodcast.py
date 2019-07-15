@@ -24,7 +24,7 @@ def get_soup2(url2):
     print "type: ", type(soup2)
     return soup2
 
-get_soup("https://view-source:http://atheist-experience.com/archive/?full=1#table")
+get_soup2("http://atheist-experience.com/archive/?full=1")
 
 
 def get_playable_podcast(soup):

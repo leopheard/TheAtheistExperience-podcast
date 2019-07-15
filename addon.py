@@ -4,7 +4,7 @@ from resources.lib import theatheistexperiencepodcast
 plugin = Plugin()
 
 URL = "https://www.spreaker.com/show/3254896/episodes/feed"
-URL2 = "http://atheist-experience.com/archive/?full=1#table"
+URL2 = "http://atheist-experience.com/archive/?full=1"
 
 @plugin.route('/')
 def main_menu():
