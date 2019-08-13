@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <strings>
   <!-- Plugin name -->
-  <string id="30001">All Atheist Experience episodes</string>
-  <string id="30000">Latest The Atheist Experience episode</string>
+  <string id="30000">All Atheist Experience episodes</string>
+  <string id="30001">Latest The Atheist Experience episode</string>
   <string id="30002">Full archive 1998 to present</string>
 </strings>

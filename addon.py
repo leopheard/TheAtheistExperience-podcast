@@ -13,11 +13,11 @@ def main_menu():
     """
     items = [
         {
-            'label': plugin.get_string(30001), 
+            'label': plugin.get_string(30000), 
             'path': plugin.url_for('all_episodes'),
             'thumbnail': "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/759ffa12e832b60f7779066e7b874dba.jpg"},
         {
-            'label': plugin.get_string(30000), 
+            'label': plugin.get_string(30001), 
             'path': plugin.url_for('all_episodes1'),
             'thumbnail': "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/759ffa12e832b60f7779066e7b874dba.jpg"},
         {
